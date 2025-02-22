@@ -4,12 +4,14 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
+nav{
     text-align: center;
     height: 10vh;
     background-color: aqua;
     padding: 20px;
+    position: sticky;
 }
+
 .Container {
     max-width: 400px;
     margin: auto;
@@ -59,7 +61,11 @@ button:hover {
     margin-bottom: 10px;
 }
 footer {
-    margin: auto;
-    padding: auto;
-    
+    margin-top: 100px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    color: aliceblue;
+    background-color: rgb(88, 81, 81);
+    text-align: center;
+
 }
