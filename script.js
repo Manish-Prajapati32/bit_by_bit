@@ -1,3 +1,5 @@
+
+// For Date, Time and Day
 function date_time() {
     const now = new Date();
     const date = now.toLocaleDateString();
@@ -13,4 +15,18 @@ function date_time() {
 
 setInterval(date_time,1000);
 date_time();
+
+// For Weather API
+function Weather() {
+    const city = document.getElementById("city").value.trim();
+    console.log(`${city}`);
+    
+    if(!city) {
+        document.getElementById("weather").innerText = "Please Enter a City name.";
+        return;
+    }
+    const weatherapi = 
+
+}
+Weather();
 
