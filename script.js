@@ -25,7 +25,9 @@ function Weather() {
         document.getElementById("weather").innerText = "Please Enter a City name.";
         return;
     }
-    const weatherapi = 
+    const weatherapi = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=a2e6871f83c67c4c28ecf354a7a85c08&units=${currentUnit}`;
+
+    
 
 }
 Weather();
