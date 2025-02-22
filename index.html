@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Weather</title>
-    <s><link rel="stylesheet" href="style.css"></s>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,35 +12,39 @@
         <nav id="header">
             <h1>Weather App</h1>
         </nav>
-    </header> 
-    <!-- <nav>
-        <h1>Weather App</h1>
-    </nav> -->
-    <div class="Container"> <!---It is container that contain date ,day,time and temperature -->
-        <div id="date" ></div>
-        <div id="time" ></div>
-        <div id="day" ></div>
+    </header>
+     <video autoplay loop muted class="back-video">
+        <source src="WhatsApp Video 2025-02-22 at 14.21.10_6865a74c.mp4" type="">
+     </video>
 
-        
-        <!-- To take input using input box -->
+    <div class="Container"> 
+        <div id="date"></div>
+        <div id="time"></div>
+        <div id="day"></div>
+
+      
         <input type="text" id="city" placeholder="Enter city name">
         <ul id="suggestions" class="suggestions-list"></ul>
-        
-        <button>Get Weather</button>
 
-        <!--TO get your weather detail  -->
+        <button id="getWeatherBtn">Get Weather</button>
+
+    
         <div id="weather" class="weather-info"></div>
     </div>
+    <div>
+        
     </div>
+
     <footer>
-        <p>&copy; This Weather  App is Created By Bit by Bit Group
+        <p>&copy; This Weather App is Created By Bit by Bit Group
         <br>Team Member Detail 
-    <br>😎 Manish Prajapati
-    😎 Aditya Kumar
-    <br>😎 Ritesh Dwivedi
-    😎 Pritam Sharma        
+        <br>😎 Manish Prajapati
+        😎 Aditya Kumar
+        <br>😎 Ritesh Dwivedi
+        😎 Pritam Sharma        
        </p>
     </footer>
-    <script  src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
